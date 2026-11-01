@@ -1,34 +1,31 @@
-Python is a programming Language.
-What is a programming Language?
-The instruction for computer to understand since the computer can't understand the human languge we use 
-programming languge.
-In simple words, a language to instruct a computer.
-Python is high Level programming language that uses instructions to teach the computer how to perform a task.
-Python is an easy to learn programming language.
-It is the only PL (programming language) that is closer to the human language (English).
-Python Provides an easy approach to object-oriented programming.
-Object-oriented is an approach used to write programs.
-Python is a free and Open Source Language.
-That is, you can read modify and distribute the source code of Python scripts.
-It was developed by Guido van Rossum and was released in 1991.
+PYTHON: A SHORT INTRODUCTION
 
-Versions Of Python:
-There are 2 Versions of Python available, Namely 2.X and 3.X.
-Py2 is more structured programming language whereas, Py3 is more object-oriented language.
-Py2 print function (print()) doesn't require Parenthesis(Round Bracket) while Py3 does require them.
+Python is a general-purpose programming language created by Guido van Rossum.
+It is used for automation, web services, data analysis, scientific computing,
+education and many other tasks. Its readable syntax helps beginners focus on
+programming ideas, but Python is not the only language with readable syntax.
 
-Usage of Python:
-Python caan be found anywhere, but what exactly is Python used for?
-Python is used in:
-    1) GAME DEVELOPMENT.
-    2) AI, MACHINE LEARNING AND DATA SCIENCE.
-    3) EMBEDDED SYSTEM, INTERNET OF THINGS AND MORE.
-and many more.
+THIS COURSE
 
-How does it Work?
-    1) First, we write instructions in English based Python language.
-    2) Python is an interpreted language, so there is no need to compile them.
-    3) Python programs run directly through a source code.
-    4) The source code is converted into an intermediate bytecode and then into the native language of the computer 
-    by the Python interpreter.
-    5) The Code is executed and the output is presented.
+Use Python 3.10 or newer. From the repository root, start with:
+    python -m lessons.beginner.variables
+
+Follow docs/LEARNING_PATH.md for the ordered course. The original index.py and
+advanced.py files preserve early notes; many examples there are commented out.
+
+HOW PROGRAMS RUN
+
+A Python implementation reads and executes your program. CPython compiles source
+into bytecode and executes that bytecode in its interpreter. You normally run a
+.py file without a separate manual compilation step. Other implementations can
+use different execution strategies.
+
+Python supports procedural, object-oriented and functional styles. It uses
+indentation to group statements. Names refer to objects, and objects have types.
+input() returns text; convert and validate that text before using it as a number.
+
+PYTHON AND THIS REPOSITORY HAVE DIFFERENT LICENSES
+
+Python itself is open-source software. That does not automatically grant a
+license to every script written in Python. See this repository's ownership and
+license notice in README.md.

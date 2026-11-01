@@ -71,7 +71,7 @@
 
 #use to get square root of the given number
 
-# import math 
+# import math
 # a = math.sqrt(9)
 # b = math.sqrt(16)
 # print(a)
@@ -103,7 +103,7 @@
 # print(lis1)
 
 # Accessing data from tuple it is same as LIST, but can not update or delete like we do in list
-# tuple1 = ["1", 1]
+# tuple1 = ("1", 1)
 # print(tuple1[0])
 
 # dictionary or an object

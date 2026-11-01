@@ -44,7 +44,7 @@
 
 # print(random.randrange(3,9))
 
-# shuffle() method 
+# shuffle() method
 
 # list = [10,6,4,11,1]
 # random.shuffle(list)
@@ -96,10 +96,10 @@
 
 # Let me tell you something about Variance:
 # Variance in statistics refers to the average of the squared dufferences from the mean.
-# In other words, how varied is the data? Does it vary a lot, in that say we have one grade of say 20, another 
+# In other words, how varied is the data? Does it vary a lot, in that say we have one grade of say 20, another
 # that's 99, and another that's like 50? Are the grades very varied? or are they fairly close together?
 # Before even running the code we can conclude that our grades are fairly similar.
-# let's go towards the 
+# let's go towards the
 
 # variance() method
 
@@ -108,16 +108,16 @@
 # print(statistics.variance(grades,gradesmean))
 
 # Somethings you should know about Standard Deviation:
-# Standard deviation is used to show how much variation from the mean exists. 
+# Standard deviation is used to show how much variation from the mean exists.
 # You can think of it as a typical deviation from the mean.
-# A low standard deviation indicates that the values tend to be close to the mean of the set, 
+# A low standard deviation indicates that the values tend to be close to the mean of the set,
 # while a high standard deviation indicates that the values are spread out over a wider range.
 # Fun fact for the math geeks. The standard deviation is actually the square root of the variance.
 
 # stdev() method
 
-# grades = [89, 91, 95, 92, 93, 94, 98, 90] 
-# stdevgrades = statistics.stdev(grades) 
+# grades = [89, 91, 95, 92, 93, 94, 98, 90]
+# stdevgrades = statistics.stdev(grades)
 # print("The Standard deviation of the list is: ", stdevgrades)
 
 # import time # Here time is module
@@ -140,7 +140,7 @@
 # IndexError: Raised when an index is not found in a sequence. For example, if the length of the list is 10
 # and you are trying to access the 11th index from that list, you'll get this error.
 # IndentationError: Raised when indentation is not specified properly
-# ValueError: Raised when the built-in function for a data type has the valid type of arguments, 
+# ValueError: Raised when the built-in function for a data type has the valid type of arguments,
 # but the arguments have invalid values specified
 # Exception: Base class for all exceptions. If you are not sure about,
 # which exception may occur, you can use the base class. It will handle all of them
@@ -152,7 +152,7 @@
 # For example: print(Language) this ine will give us the NameError: name Language is not defined.
 # We will handle it like this:
 
-# exceptions method 
+# exceptions method
 
 # try:
 #     print(language)
@@ -165,7 +165,7 @@
 #     print(language)
 # except NameError as e:
 #     print("Some error has occured")
-# finally: 
+# finally:
 #     print("That was Good, man")
 
 # thala = [80]
@@ -220,13 +220,13 @@ import re # Here re is module
 #         print("You Are Awesome!")
 #         return
 # search()
-   
+
 # split() method
 
 # def split():
 #     result = re.split("s","Awesome")
 #     print(result)
-# split()    
+# split()
 
 # Starting MySQL:
 # Introduction to SQL:
@@ -237,14 +237,15 @@ import re # Here re is module
 
 # MySQL is an open-source relational database management system. MySQL stoes data in tables.
 
-import mysql.connector # Here mysql.connector is module
+# Optional MySQL notes only; not required by the guided course:
+# import mysql.connector
 # it takes 3 required parameters 'host', 'user' and 'passwd'
 # note that you'll have to download the MySQL app in your pc and have to set up the all process
 # def sqlconn():
 #     db = mysql.connector.connect(
 #         host = "localhost",
-#         user = "Talha",
-#         passwd = "talha@231"
+#         user = "YOUR_DATABASE_USER",
+#         passwd = "YOUR_DATABASE_PASSWORD"
 #     )
 #     print(db)
 # sqlconn()
